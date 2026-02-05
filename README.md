@@ -16,7 +16,8 @@ This isn't a thread you skim and forget. This is the entire system, start to fin
 
 Come back to it every time you start a new project. The people who treat this as a reference manual will build incredible things. The people who skim it will stay stuck and broken.
 Now let's fix you.
-1: Why You're Failing
+
+# Why You're Failing
 You're failing because you skipped the fundamentals.
 You don't know what a component is. You don't know what state means. You don't understand why your button doesn't do anything when you click it. You don't know why your site looks good on your laptop but breaks on your phone.
 And because you don't know these things, you can't describe them to AI.
@@ -24,7 +25,8 @@ AI is a translator. It converts your intent into code. But if your intent is shi
 The fix isn't better prompts. 
 The fix is better understanding.
 Once you know what you're building, prompting becomes trivial. The words come naturally because you finally know what to ask for.
-2: The Documentation-First System
+
+# The Documentation-First System
 This is where everyone gets it wrong.
 You open Cursor, open a chat, start describing your app, and let AI start coding immediately. No plan, no reference, and no sources of truth.
 This is why your project falls apart after the first few files begin.
@@ -371,7 +373,8 @@ Master these tools.
 Understand when to use each one. 
 
 The difference between someone who ships and someone who's stuck is not which AI model they use is knowing which AI model to use when applicable.
-18.5: Advanced Workflow 
+
+# Advanced Workflow 
 (When You're Ready)
 Once you've built a few projects with this basic system, these are the techniques that will multiply your speed. These come directly from the people who build Claude Code for a living.
 Parallel sessions with git worktrees. This is the single biggest productivity unlock. Instead of working on one thing at a time, spin up 3 to 5 git worktrees, each running its own Claude Code session in parallel. One worktree builds the auth system. Another builds the dashboard layout. A third handles the API endpoints. They all share the same repo but work independently. You bounce between them, review outputs, approve changes, and merge when each is done. What used to take a full day of sequential building becomes a few hours of parallel execution. Name your worktrees and set up shell aliases so you can hop between them in one keystroke.
