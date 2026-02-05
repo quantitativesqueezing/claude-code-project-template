@@ -2,9 +2,7 @@
 The documentation stack you should write before touching any code. Six canonical docs that define your entire project, plus some files that keep AI aligned and persistent across sessions.
 
 
-##################################
-# The Documentation-First System #
-##################################
+# The Documentation-First System
 
 Documentation first, code second. Always do this.
 Before you write a single line of code, you should write your project's canonical documentation markdown files.
@@ -46,9 +44,8 @@ Here's why this matters: AI has no memory between sessions. When you close a ter
 Update it religiously. After every completed feature you implement, meticulously document what was built, what works, what's broken, what's next.
 
 
-############################
-# The Interrogation System #
-############################
+# The Interrogation System
+
 Before you even write your documentation, make AI tear your idea apart.
 This is the prompt that changes everything:
 "Before writing any code, endlessly interrogate my idea in Planning mode only. Assume nothing. Ask questions until there's no assumptions left."
